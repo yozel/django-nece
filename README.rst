@@ -1,17 +1,4 @@
-.. image:: https://img.shields.io/travis/tatterdemalion/django-nece/master.svg
-    :target: https://travis-ci.org/tatterdemalion/django-nece
-
-.. image:: https://img.shields.io/coveralls/tatterdemalion/django-nece.svg
-    :target: https://coveralls.io/r/tatterdemalion/django-nece
-
-.. image:: https://img.shields.io/pypi/v/nece.svg
-    :target: https://pypi.python.org/pypi/nece
-
-.. image:: https://img.shields.io/pypi/pyversions/nece.svg
-    :target: https://pypi.python.org/pypi/nece/
-
-
-nece?
+nece? (with psycopg2-binary instead of psycopg2)
 =====
 
 Introduction
@@ -53,7 +40,7 @@ Dependencies
 
     postgresql >= 9.4.5
     Django >= 1.9
-    psycopg2 >= 2.5.4
+    psycopg2-binary >= 2.7.3.2
 
 
 Installation
@@ -62,9 +49,13 @@ Installation
 via pypi:
 ~~~~~~~~~
 
+Not an option. This is just a fork.
+
+via pip:
+~~~~~~~~
 ::
 
-    pip install nece
+    pip install git+https://github.com/yozel/django-nece.git
 
 via setup.py
 ~~~~~~~~~~~~
